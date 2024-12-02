@@ -161,9 +161,8 @@ def integrate_spe_spc_check(estratto_conto, mastrino, risultati_df, colonna_data
 
 
 # Esempio di utilizzo
-file_estratto_conto = 'Insert_bank_File'
-file_mastrino = 'Insert_ledger_file'
-
+file_estratto_conto = 'Percorso_del_file_estratto_conto.xlsx'
+file_mastrino = 'Percorso_del_file_mastrino.xlsx'
 try:
     risultato = riconcilia_conti(
         file_estratto_conto=file_estratto_conto,
